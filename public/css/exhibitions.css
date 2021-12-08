@@ -1,0 +1,78 @@
+:root {
+    --color-background: #f0f0f5;
+    --color-background-button: #e02041;
+    --color-backgrpund-button-secundary: rgb(192, 12, 147);
+
+    --color-white: #fff;
+    --color-black: #000;
+    --color-ligth-gray: #737380;
+
+    --color-title: rgb(83, 25, 220);
+
+    --color-hover-link: rgba(0, 0, 0, 0.57);
+
+    --color-input: #333;
+
+    --color-input-border: #dcdce6;
+}
+
+
+.section-search {
+    background: url('/img/background_search.jpg') no-repeat;
+    background-size: cover;
+
+    height: 45em;
+
+    margin-bottom: 3em;
+
+    display: grid;
+    place-items: center;
+}
+
+.section-search div {
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    place-items: center;
+}
+
+.section-search div form {
+    width: 70%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.section-search div h1 {
+    font-size: clamp(1.8em, 3vw, 3em);
+    color: var(--color-white);
+}
+
+.section-search div input {
+    height: 50px;
+}
+
+.delete-book {
+    display: none;
+}
+
+.disponible-book {
+    margin-left: 2em;
+    margin-bottom: 2em;
+    display: grid;
+    gap: .8em;
+}
+
+.disponible-book h3 {
+    font-size: 25px;
+}
+
+.disponible-book p {
+    font-size: 16px;
+    color: var(--color-ligth-gray);
+}

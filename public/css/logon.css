@@ -1,0 +1,111 @@
+:root {
+    --color-background: #f0f0f5;
+    --color-background-button: #e02041;
+    --color-backgrpund-button-secundary: rgb(192, 12, 147);
+
+    --color-white: #fff;
+    --color-black: #000;
+    --color-ligth-gray: #737380;
+
+    --color-title: rgb(83, 25, 220);
+
+    --color-hover-link: rgba(0, 0, 0, 0.57);
+
+    --color-input: #333;
+
+    --color-input-border: #dcdce6;
+}
+
+
+/* .content {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    display: grid;
+    place-items: center;
+
+} */
+
+.content section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content section .logo {
+    width: 250px;
+    margin: 2rem 0;
+}
+
+.content section h1 {
+    color: var(--color-title);
+
+    font-size: clamp(.5em, 3.5vw, 2em);
+    font-weight: bold;
+}
+
+.content section form {
+    margin-top: 2em;
+}
+
+.content section form input  {
+    border-radius: 8px;
+    outline: none !important;
+}
+
+.content section form input:focus {
+    outline: none !important;
+}
+
+.content section form input + input {
+    margin-top: 2em;
+}
+
+.content section form .divisor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 3em;
+}
+
+.content section form .divisor a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content section form .divisor a img {
+    margin-left: .4em;
+}
+
+.content .image  {
+    display: none;
+}
+
+@media(min-width: 1000px) {
+    .content {
+        width: 80%;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content section {
+        margin-top: 2em;
+        width: 50%;
+    }
+
+    .content .image {
+        display: block;
+        width: 50%;
+
+    }
+
+    .content .image img {
+        width: 100%;
+    }
+}

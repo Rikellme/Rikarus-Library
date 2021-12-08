@@ -1,0 +1,31 @@
+section {
+    width: 80%;
+    max-width: 1200px;
+    margin: 4em auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section h1 {
+    color: #8405ed;
+    font-size: 30px;
+}
+
+
+section .back-link {
+    font-size: 20px;
+}
+
+section .back-link:hover {
+    color: #8405ed;
+}
+
+.button {
+    display: none;
+}
+
+.conditional {
+    text-align: center;
+    margin-bottom: 29.6em;
+}
